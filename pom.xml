@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xyf</groupId>
-    <artifactId>IpMapper</artifactId>
+    <artifactId>Utils</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -25,6 +25,18 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.29</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.7</version>
         </dependency>
     </dependencies>
 
